@@ -895,7 +895,7 @@
   let letter-heading = {
     grid(
       columns: (1fr, 2fr),
-      rows: 100pt,
+      rows: auto,
       align(left + horizon)[
         #block(
           clip: true,
