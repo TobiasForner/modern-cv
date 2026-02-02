@@ -915,9 +915,10 @@
     )
   }
 
+  let padding_after_signature = if closing !=""{ 2em} else {0em}
   let signature = {
     align(bottom)[
-      #pad(bottom: 2em)[
+      #pad(bottom: padding_after_signature)[
         #if ("signature" in author) {
           author.signature
         }
